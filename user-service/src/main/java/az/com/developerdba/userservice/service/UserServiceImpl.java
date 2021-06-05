@@ -50,6 +50,7 @@ public class UserServiceImpl implements UserService {
 
         Department department = restTemplate
                 .getForObject("http://DEPARTMENT-SERVICE/departments/" + user.getDepartmentId(),
+//                .getForObject("http://localhost:9001/departments/" + user.getDepartmentId(),
                         Department.class);
         vo.setUser(user);
         vo.setDepartment(department);
