@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-registry" />
         <module name="cloud-gateway" />
+        <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
   </component>
@@ -31,6 +32,7 @@
       <module name="MicroservicesArchitecture" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="department-service" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="user-service" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring" />
     </option>
