@@ -21,6 +21,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-server" />
         <module name="service-registry" />
         <module name="cloud-gateway" />
         <module name="hystrix-dashboard" />
@@ -30,6 +31,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MicroservicesArchitecture" options="-parameters" />
+      <module name="cloud-config-server" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="department-service" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring" />
       <module name="hystrix-dashboard" options="-parameters" />
