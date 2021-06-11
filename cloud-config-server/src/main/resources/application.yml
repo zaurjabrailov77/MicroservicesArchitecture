@@ -4,18 +4,14 @@ server:
 spring:
   application:
     name: CLOUD-CONFIG-SERVER
-#  profiles:
-#    active: native
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/zaurjabrailov77/MicroservicesCloudConfigServer
+          uri: https://github.com/zaurjabrailov77/MicroservicesArchitectureConfigServer
           clone-on-start: true
 
 #          uri: https://github.com/zaurjabrailov77/cloud-config-server
 # bu github in ozunden oxuyur yml file bele ishdemedi baxarsan
-
-
 
 #      uri: E:/JAVA_LESSONS/GitHubProjects/AllSpring/MicroservicesUsingSpringBoot/cloud-config-server/cloud-config-server
